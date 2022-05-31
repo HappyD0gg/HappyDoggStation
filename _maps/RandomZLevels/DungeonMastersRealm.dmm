@@ -58,6 +58,18 @@
 "G" = (
 /turf/closed/indestructible/iron,
 /area/space)
+"N" = (
+/obj/machinery/power/emitter/energycannon/magical{
+	dir = 4;
+	color = #808080;
+	name = " fire frog statue";
+	projectile_type = /obj/projectile/magic/fireball;
+	icon_state = "wabbajack_statue_on"
+	},
+/turf/open/indestructible{
+	icon_state = "stone_floor"
+	},
+/area/space)
 "S" = (
 /obj/structure/railing{
 	dir = 8
@@ -2578,19 +2590,19 @@ a
 a
 o
 d
-a
+N
 d
-a
+N
 d
-a
+N
 d
-a
+N
 d
-a
+N
 d
-a
+N
 d
-a
+N
 d
 o
 a
