@@ -18,8 +18,14 @@
 	color = #808080;
 	name = " fire frog statue";
 	projectile_type = /obj/projectile/magic/fireball;
+	icon_state = "wabbajack_statue_on";
 	atom_colours = #808080;
-	powered = 1
+	powered = 1;
+	idle_power_usage = null;
+	machine_power_rectifier = null;
+	static_power_usage = null;
+	use_power = null;
+	active_power_usage = null
 	},
 /turf/open/indestructible{
 	icon_state = "stone_floor";
@@ -66,21 +72,6 @@
 /area/space)
 "G" = (
 /turf/closed/indestructible/iron,
-/area/space)
-"N" = (
-/obj/machinery/power/emitter/energycannon/magical{
-	dir = 4;
-	color = #808080;
-	name = " fire frog statue";
-	projectile_type = /obj/projectile/magic/fireball;
-	icon_state = "wabbajack_statue_on";
-	atom_colours = #808080;
-	powered = 1
-	},
-/turf/open/indestructible{
-	icon_state = "stone_floor";
-	name = "Dungeon Floor"
-	},
 /area/space)
 "S" = (
 /obj/structure/railing{
@@ -2603,19 +2594,19 @@ a
 a
 o
 d
-N
+a
 d
-N
+a
 d
-N
+a
 d
-N
+a
 d
-N
+a
 d
-N
+a
 d
-N
+a
 d
 o
 a
