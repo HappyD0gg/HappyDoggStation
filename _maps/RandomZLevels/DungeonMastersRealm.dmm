@@ -15,7 +15,8 @@
 	dir = 4;
 	color = #808080;
 	name = " fire frog statue";
-	projectile_type = /obj/projectile/magic/fireball
+	projectile_type = /obj/projectile/magic/fireball;
+	atom_colours = #808080
 	},
 /turf/open/indestructible{
 	icon_state = "stone_floor"
@@ -64,7 +65,8 @@
 	color = #808080;
 	name = " fire frog statue";
 	projectile_type = /obj/projectile/magic/fireball;
-	icon_state = "wabbajack_statue_on"
+	icon_state = "wabbajack_statue_on";
+	atom_colours = #808080
 	},
 /turf/open/indestructible{
 	icon_state = "stone_floor"
