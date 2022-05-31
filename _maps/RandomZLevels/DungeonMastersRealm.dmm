@@ -1,13 +1,15 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "c" = (
 /obj/structure/bonfire/prelit,
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "d" = (
@@ -20,13 +22,15 @@
 	powered = 1
 	},
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "g" = (
 /obj/structure/healingfountain,
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "o" = (
@@ -40,7 +44,8 @@
 	dir = 1
 	},
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "v" = (
@@ -48,13 +53,15 @@
 	dir = 8
 	},
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "D" = (
 /obj/machinery/gateway/away,
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "G" = (
@@ -71,7 +78,8 @@
 	powered = 1
 	},
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "S" = (
@@ -79,7 +87,8 @@
 	dir = 8
 	},
 /turf/open/indestructible{
-	icon_state = "stone_floor"
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "U" = (
