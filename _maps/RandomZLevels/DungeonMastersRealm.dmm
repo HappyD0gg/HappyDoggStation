@@ -37,7 +37,11 @@
 "t" = (
 /obj/machinery/power/emitter/energycannon{
 	name = "Dart Trap";
-	icon_state = "iron_wall"
+	desc = "A hidden dart trap that is imbeded in the dungeon wall.";
+	machine_power_rectifier = 0;
+	circuit = null;
+	projectile_sound = 'sound/weapons/tap.ogg';
+	maximum_fire_delay = 20
 	},
 /turf/open/indestructible{
 	icon_state = "stone_floor";
