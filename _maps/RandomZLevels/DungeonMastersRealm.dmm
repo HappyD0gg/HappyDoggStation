@@ -19,10 +19,31 @@
 	name = "Dungeon Floor"
 	},
 /area/space)
+"k" = (
+/mob/living/simple_animal/hostile/retaliate/bat,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
+"l" = (
+/obj/item/flashlight/flare/torch,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
 "o" = (
 /turf/closed/indestructible/iron{
 	desc = "A wall with tough iron plating. It seems to be enchanted.";
 	name = "Enchanted iron wall"
+	},
+/area/space)
+"r" = (
+/obj/item/claymore,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "s" = (
@@ -59,8 +80,8 @@
 	name = "Dungeon Floor"
 	},
 /area/space)
-"w" = (
-/obj/projectile/bullet/reusable/arrow,
+"z" = (
+/obj/item/food/cheese/wedge,
 /turf/open/indestructible{
 	icon_state = "stone_floor";
 	name = "Dungeon Floor"
@@ -76,12 +97,29 @@
 "G" = (
 /turf/closed/indestructible/iron,
 /area/space)
-"Q" = (
-/turf/closed/indestructible/iron{
-	desc = "A wall with tough iron plating. It seems to be enchanted.";
-	name = "Enchanted iron wall";
-	base_icon_state = "s"
+"H" = (
+/mob/living/simple_animal/hostile/rat,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
+/area/space)
+"I" = (
+/obj/effect/temp_visual/cult/door/unruned,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
+"P" = (
+/mob/living/simple_animal/hostile/regalrat,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
+"Q" = (
+/turf/open/space/basic,
 /area/space)
 "S" = (
 /obj/structure/railing{
@@ -94,6 +132,21 @@
 /area/space)
 "U" = (
 /turf/open/chasm,
+/area/space)
+"V" = (
+/obj/item/food/cheese/wheel,
+/obj/item/knife/kitchen,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
+"Y" = (
+/obj/machinery/door/morgue,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
 /area/space)
 
 (1,1,1) = {"
@@ -324,9 +377,9 @@ a
 a
 o
 a
+H
 a
-a
-a
+H
 a
 o
 "}
@@ -544,24 +597,24 @@ a
 a
 G
 a
+Y
 a
 a
 a
+k
 a
 a
 a
-a
-a
-a
-a
-o
+Y
 a
 o
 a
+o
+H
 a
+H
 a
-a
-a
+H
 o
 "}
 (5,1,1) = {"
@@ -664,9 +717,9 @@ G
 G
 a
 a
-a
-a
-a
+k
+k
+k
 a
 a
 o
@@ -678,7 +731,7 @@ a
 o
 o
 o
-a
+Y
 o
 "}
 (6,1,1) = {"
@@ -778,19 +831,19 @@ G
 a
 a
 a
+Y
 a
 a
 a
+k
 a
 a
 a
-a
-a
-a
+Y
 a
 o
 a
-a
+Y
 a
 o
 a
@@ -910,7 +963,7 @@ a
 o
 o
 o
-a
+Y
 o
 o
 o
@@ -1023,10 +1076,10 @@ G
 o
 a
 o
-a
+H
 o
-a
-a
+V
+o
 a
 a
 a
@@ -1132,7 +1185,7 @@ G
 G
 G
 G
-a
+Y
 G
 G
 G
@@ -1142,10 +1195,10 @@ a
 o
 a
 o
-a
+z
 o
 a
-a
+P
 a
 o
 "}
@@ -1260,7 +1313,7 @@ o
 a
 o
 a
-o
+Y
 a
 a
 a
@@ -1494,9 +1547,9 @@ o
 a
 o
 o
+l
 a
-a
-a
+r
 o
 o
 "}
@@ -1718,7 +1771,7 @@ a
 a
 a
 a
-a
+Y
 a
 a
 a
@@ -1726,7 +1779,7 @@ o
 a
 o
 a
-a
+Y
 a
 a
 c
@@ -1845,7 +1898,7 @@ o
 a
 o
 a
-a
+I
 a
 a
 a
@@ -1956,7 +2009,7 @@ G
 a
 a
 a
-a
+Y
 a
 o
 a
@@ -2191,7 +2244,7 @@ a
 a
 a
 o
-a
+H
 o
 a
 o
@@ -2384,7 +2437,7 @@ Q
 a
 a
 a
-w
+a
 a
 G
 G
@@ -2614,10 +2667,10 @@ a
 a
 a
 a
-a
-a
-a
 t
+a
+a
+a
 o
 a
 a
@@ -2772,7 +2825,7 @@ G
 G
 G
 G
-a
+Y
 G
 G
 o
