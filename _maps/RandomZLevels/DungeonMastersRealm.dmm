@@ -41,7 +41,9 @@
 	machine_power_rectifier = 0;
 	circuit = null;
 	projectile_sound = 'sound/weapons/tap.ogg';
-	maximum_fire_delay = 20
+	maximum_fire_delay = 20;
+	projectile_type = /obj/projectile/bullet/dart;
+	payment_department = null
 	},
 /turf/open/indestructible{
 	icon_state = "stone_floor";
@@ -52,6 +54,13 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
+"w" = (
+/obj/projectile/bullet/reusable/arrow,
 /turf/open/indestructible{
 	icon_state = "stone_floor";
 	name = "Dungeon Floor"
@@ -2375,7 +2384,7 @@ Q
 a
 a
 a
-a
+w
 a
 G
 G
