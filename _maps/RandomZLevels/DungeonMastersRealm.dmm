@@ -34,6 +34,16 @@
 	name = "Dungeon Floor"
 	},
 /area/space)
+"t" = (
+/obj/machinery/power/emitter/energycannon{
+	name = "Dart Trap";
+	icon_state = "iron_wall"
+	},
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
 "v" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -52,6 +62,13 @@
 /area/space)
 "G" = (
 /turf/closed/indestructible/iron,
+/area/space)
+"Q" = (
+/turf/closed/indestructible/iron{
+	desc = "A wall with tough iron plating. It seems to be enchanted.";
+	name = "Enchanted iron wall";
+	base_icon_state = "s"
+	},
 /area/space)
 "S" = (
 /obj/structure/railing{
@@ -2350,7 +2367,7 @@ a
 a
 a
 a
-o
+Q
 a
 a
 a
@@ -2587,7 +2604,7 @@ a
 a
 a
 a
-a
+t
 o
 a
 a
