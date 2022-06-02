@@ -26,6 +26,13 @@
 	name = "Dungeon Floor"
 	},
 /area/space)
+"h" = (
+/obj/item/clothing/suit/armor/riot/knight/greyscale,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
 "i" = (
 /mob/living/simple_animal/hostile/retaliate/bat{
 	combat_mode = 1;
@@ -62,6 +69,13 @@
 "o" = (
 /turf/closed/indestructible/iron{
 	name = "dungeon wall"
+	},
+/area/space)
+"r" = (
+/obj/effect/mob_spawn/corpse/human/skeleton,
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
 	},
 /area/space)
 "s" = (
@@ -117,6 +131,13 @@
 	combat_mode = 1;
 	name = "dungeon rat"
 	},
+/turf/open/indestructible{
+	icon_state = "stone_floor";
+	name = "Dungeon Floor"
+	},
+/area/space)
+"K" = (
+/obj/item/knife/combat/bone,
 /turf/open/indestructible{
 	icon_state = "stone_floor";
 	name = "Dungeon Floor"
@@ -1555,8 +1576,8 @@ a
 o
 o
 l
-a
-a
+r
+K
 o
 o
 "}
@@ -1672,7 +1693,7 @@ a
 o
 a
 a
-a
+h
 a
 a
 o
