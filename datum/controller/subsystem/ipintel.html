@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;controller&#x2F;subsystem&#x2F;ipintel - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/controller/subsystem/ipintel.html#var">Var Details</a></header>
+<main>
+<h1>ipintel <aside>/<a href="datum.html">datum</a>/<a href="datum/controller/subsystem.html">controller/subsystem</a>/<a href="datum/controller/subsystem/ipintel.html">ipintel</a></aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L1">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 1"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/cached_queries">cached_queries</a></th><td>Cache for previously queried IP addresses and those stored in the database</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/contact_email">contact_email</a></th><td>The email used in conjuction with https://check.getipintel.net/check.php</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/exempt_living_playtime">exempt_living_playtime</a></th><td>The living playtime (minutes) for players to be exempt from IPIntel checks</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/ipintel_cache_length">ipintel_cache_length</a></th><td>The length of time (days) to cache IP intel</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/max_queries_per_day">max_queries_per_day</a></th><td>Maximum number of queries per day</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/max_queries_per_minute">max_queries_per_minute</a></th><td>Maximum number of queries per minute</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/probability_threshold">probability_threshold</a></th><td>The threshold for probability to be considered a VPN and/or bad IP</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/query_base">query_base</a></th><td>Query base</td></tr>
+            <tr><th><a href="datum/controller/subsystem/ipintel.html#var/rate_limits">rate_limits</a></th><td>The store for rate limiting</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/cached_queries"><aside class="declaration">var </aside>cached_queries
+            <aside>&ndash; /list/datum/ip_intel</aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L21">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 21"/></a></h3>
+        <p>Cache for previously queried IP addresses and those stored in the database</p><h3 id="var/contact_email"><aside class="declaration">var </aside>contact_email
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L8">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 8"/></a></h3>
+        <p>The email used in conjuction with https://check.getipintel.net/check.php</p><h3 id="var/exempt_living_playtime"><aside class="declaration">var </aside>exempt_living_playtime
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L18">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 18"/></a></h3>
+        <p>The living playtime (minutes) for players to be exempt from IPIntel checks</p><h3 id="var/ipintel_cache_length"><aside class="declaration">var </aside>ipintel_cache_length
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L16">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 16"/></a></h3>
+        <p>The length of time (days) to cache IP intel</p><h3 id="var/max_queries_per_day"><aside class="declaration">var </aside>max_queries_per_day
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L12">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 12"/></a></h3>
+        <p>Maximum number of queries per day</p><h3 id="var/max_queries_per_minute"><aside class="declaration">var </aside>max_queries_per_minute
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L10">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 10"/></a></h3>
+        <p>Maximum number of queries per minute</p><h3 id="var/probability_threshold"><aside class="declaration">var </aside>probability_threshold
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L6">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 6"/></a></h3>
+        <p>The threshold for probability to be considered a VPN and/or bad IP</p><h3 id="var/query_base"><aside class="declaration">var </aside>query_base
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L14">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 14"/></a></h3>
+        <p>Query base</p><h3 id="var/rate_limits"><aside class="declaration">var </aside>rate_limits
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/HappyD0gg/HappyDoggStation/blob/9145ecb7e1e44635a1056fc704adfa3d764325e6/code/controllers/subsystem/ipintel.dm#L25">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;ipintel.dm 25"/></a></h3>
+        <p>The store for rate limiting</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/HappyD0gg/HappyDoggStation/tree/9145ecb7e1e44635a1056fc704adfa3d764325e6">9145ecb</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/crates/dmdoc/README.md">dmdoc 1.8.0</a></footer>
+</body>
+</html>
